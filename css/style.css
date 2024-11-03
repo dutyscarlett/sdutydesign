@@ -20,6 +20,7 @@ Import Google Fonts
 body {
 	margin: 0px;
 	font-family: "Raleway", Sans-serif;
+    background-color: #fae5e3;
 }
 
 h1,
@@ -31,7 +32,7 @@ h6 {
 	font-weight: 200;
 	letter-spacing: 0.4px;
 	font-family: "Raleway", Sans-serif;
-	color: #232323;
+	color: #0c130d;
 }
 
 p {
@@ -40,11 +41,11 @@ p {
 	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.2px;
-	color: #252525;
+	color: #0c130d;
 }
 
 a:hover, a:focus, a:active, a.active {
-    color: #fec503;
+    color: #a66f6a;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
@@ -52,7 +53,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #a66f6a;
 }
 
 @media (min-width: 768px) {
@@ -92,20 +93,20 @@ section {
     padding: 5px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	color: #a66f6a
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #a66f6a;
+	border-color: #a66f6a
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: #a66f6a
 }
 .navbar-default .nav li a {
     font-family: "Roboto",sans-serif;
@@ -128,11 +129,11 @@ section {
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: #a66f6a
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color: #a66f6a
 }
 
 @media (min-width:768px) {
@@ -197,6 +198,10 @@ section {
     padding: 0 50px;
 }
 
+.mz-about-container p, .mz-about-container h2 {
+    color: #fff;
+}
+
 .mz-module-about {
 	padding: 20px;
 }
@@ -256,7 +261,7 @@ figcaption {
 }
 
 figure.effect-bubba {
-	background: #000;
+	background: #253a1a;
 	margin-bottom: 1px;
 }
 
@@ -340,7 +345,7 @@ figure.effect-bubba:hover p {
 --------------------*/
 
 .light-bg {
-    background: #f1f1f1;
+    background: #a66f6a;
 }
 
 /*--------------------
@@ -465,6 +470,14 @@ footer p a span {
     font-size: 10px;
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+.logo-button {
+    max-width: 26px;
 }
 
 /*--------------------
