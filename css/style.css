@@ -514,7 +514,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #a66f6a;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -525,14 +525,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #a66f6a;
+    border-color: #a66f6a;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #a66f6a;
+    border-color: #a66f6a;
 }
 
 .btn {
@@ -593,7 +593,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #a66f6a;
 }
 /* arrow icon (span tag) */
 #back-top i {
